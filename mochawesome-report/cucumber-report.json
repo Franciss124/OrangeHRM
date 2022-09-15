@@ -1,0 +1,138 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "index;login-to-orange-hrm-website;;2",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login to Orange HRM Website",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User1 is at the login page",
+            "result": {
+              "duration": 2860000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User1 enters username as 'Admin' and password as 'admin123'",
+            "result": {
+              "duration": 1023000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User1 clicks on login button",
+            "result": {
+              "duration": 2203000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User1 is able to successfully login to the Website",
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "index",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Index",
+    "uri": "cypress\\e2e\\index.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-to-orange-hrm-website;;2",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login to Orange HRM Website",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "duration": 2128000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters username as 'Admin' and password as 'admin123'",
+            "result": {
+              "duration": 983000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "result": {
+              "duration": 2315000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login",
+    "uri": "cypress\\e2e\\Login.feature"
+  }
+]
