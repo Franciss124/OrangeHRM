@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "cypress": "^10.7.0",
+    "cypress": "^10.8.0",
     "mochawesome-report-generator": "^6.2.0"
   },
   "devDependencies": {
@@ -16,34 +16,32 @@
   "cypress-cucumber-preprocessor": {
     "cucumberJson": {
       "generate": true,
-      "outputFolder": "cypress/cucumber-json",
+      "outputFolder": "cypress/cucumber/cucumber-json",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     },
-    "nonGlobalStepDefinitions": false,
+    "nonGlobalStepDefinitions": true,
     "stepDefinitions": "cypress/e2e/**/*.{js,ts}",
     "json": {
-      
       "enabled": true,
       "outputFolder": "cypress/cucumber-json",
       "metadata": {
         "browser": {
-        "name": "chrome",
-        "version": "81"
+          "name": "chrome",
+          "version": "81"
         },
         "device": "Local test machine",
         "platform": {
-        "name": "Windows",
-        "version": "10"
+          "name": "Windows",
+          "version": "10"
         }
-        }
+      }
     }
   },
   "name": "orangehrm",
   "version": "1.0.0",
   "description": "testing",
   "main": "cucumber-html-reports.js",
-  
   "scripts": {
     "test": "cypress run --config pageLoadTimeout=10000"
   },
